@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu_jquery</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>  
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div id="gird_1">
+        <ul class="menu">
+            <li>
+                TIN TUC
+                <ul Class="sub_menu">
+                    <li>Tin Ha Noi</li>
+                    <li>Tin TP.HCM</li>
+                    <li>Tin Da Nang</li>
+                    <li>Tin Can Tho</li>
+                    <li>Tai nan Giao Thong</li>
+                    <li>Du bao thoi tiet</li>
+                </ul>
+            </li>
+            <li>BONG DA
+                <ul Class="sub_menu">
+                    <li>Tin Ha Noi</li>
+                    <li>Tin TP.HCM</li>
+                    <li>Tin Da Nang</li>
+                    <li>Tin Can Tho</li>
+                    <li>Tai nan Giao Thong</li>
+                    <li>Du bao thoi tiet</li>
+                </ul>
+            </li>
+            <li>THE GIOI</li>
+            <li>VIDEO</li>
+            <li>THOI TRANG</li>
+            <li>PHAP LUAT</li>
+            <li>THOI TRANG HI-TECH</li>
+        </ul>
+    </div>
+    
+<script>
+
+$(document).ready(function(){
+$(gird_1).click(function(){
+    $(this).hide();
+    });
+});
+
+</script>    
+
+</body>
+</html>
